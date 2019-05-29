@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: lightgreen;
+  font-size: 3rem;
+}
+main {
+  text-align: center;
+}
+main {
+  height: 100vh;
+  background: linear-gradient(rgba(68, 64, 64, 0.5), rgba(68, 64, 64, 0.5)),
+    url(fitBgc.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input {
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid green;
+}
+#wynik {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#btn {
+  font-size: 2rem;
+  width: 20vh;
+}
+.img-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+img {
+  margin: 10vh 0;
+  width: 50vw;
+  margin: auto;
+}
+@media (max-width: 320px) {
+  img {
+    width: 100vw;
+    margin: 0;
+    height: 30vh;
+  }
+  input {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    width: 100vw;
+    margin: 0;
+    height: 40vh;
+  }
+  input {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
