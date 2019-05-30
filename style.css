@@ -29,7 +29,7 @@ input {
   text-align: center;
   border: 1px solid green;
 }
-#wynik {
+#result {
   display: none;
   font-size: 2rem;
   color: white;
